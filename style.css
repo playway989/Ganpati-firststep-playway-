@@ -77,6 +77,24 @@ nav a{
     flex-direction:column;
     gap:20px;
 }
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.image-box img {
+    width: 320px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.hero {
+    text-align: center;
+}
 
 .left-menu a{
     text-decoration:none;
