@@ -19,11 +19,43 @@ nav a{
 }
 
 .hero{
-    text-align:center;
-    padding:100px;
-    background:#ffe082;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:20px;
 }
 
+.left-menu{
+    width:35%;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.left-menu a{
+    color:#000;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.right-content{
+    width:60%;
+    text-align:center;
+}
+
+.right-content img{
+    width:100%;
+    max-width:250px;
+}
+
+.btn{
+    background:#28a745;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
 .btn{
     background:#4CAF50;
     color:white;
