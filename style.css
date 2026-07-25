@@ -1,65 +1,71 @@
-body{
+*{
     margin:0;
-    font-family:Arial,sans-serif;
-    background:#f8f9fa;
+    padding:0;
+    box-sizing:border-box;
 }
 
-header{
+body{
+    font-family:Arial,sans-serif;
+    background:#fff2b3;
+}
+
+.header{
     background:#ff9800;
-    color:white;
-    padding:20px;
     text-align:center;
+    padding:30px 15px;
+}
+
+.header h1{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
 }
 
 nav a{
     color:white;
     text-decoration:none;
-    margin:15px;
+    font-size:20px;
     font-weight:bold;
 }
 
 .hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    padding:20px;
-}
-
-.left-menu{
-    width:35%;
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-}
-
-.left-menu a{
-    color:#000;
-    text-decoration:none;
-    font-size:22px;
-    font-weight:bold;
-}
-
-.right-content{
-    width:60%;
     text-align:center;
+    padding:60px 20px;
 }
 
-.right-content img{
-    width:100%;
-    max-width:250px;
+.hero h2{
+    font-size:50px;
+    color:#000;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:26px;
+    margin-bottom:30px;
+}
+
+.hero img{
+    width:300px;
+    max-width:90%;
+    border-radius:10px;
 }
 
 .btn{
-    background:#28a745;
-    color:white;
-    padding:10px 20px;
-    text-decoration:none;
-    border-radius:5px;
-}
-.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 35px;
     background:#4CAF50;
     color:white;
-    padding:12px 20px;
     text-decoration:none;
-    border-radius:5px;
+    border-radius:8px;
+    font-size:20px;
 }
