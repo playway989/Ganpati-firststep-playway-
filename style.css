@@ -1,35 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganpati FirstStep Playway</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f8f9fa;
+}
 
-<header>
-    <div class="logo-section">
-        <h1>Ganpati FirstStep Playway</h1>
-        <div class="orange-line"></div>
-    </div>
+header{
+    background:#ff9800;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
 
-    <img src="images/ab.jpg" alt="School Logo" class="logo">
-</header>
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="program.html">Program</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+.hero{
+    text-align:center;
+    padding:100px;
+    background:#ffe082;
+}
 
-<div class="center">
-    <a href="enroll.html" class="btn">Enroll Now</a>
-</div>
-
-</body>
-</html>
+.btn{
+    background:#4CAF50;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
