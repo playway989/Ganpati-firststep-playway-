@@ -51,20 +51,16 @@ header p{
 nav{
     background:#ff8c00;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
-    flex-wrap:wrap;
-    gap:15px;
-    padding:14px 10px;
-    position:sticky;
-    top:0;
-    z-index:1000;
+    padding:15px 10px;
+    flex-wrap:nowrap;
 }
 
 nav a{
-    color:#fff;
+    color:white;
     text-decoration:none;
-    font-size:16px;
+    font-size:14px;
     font-weight:bold;
 }
 
