@@ -1,124 +1,35 @@
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f8f9fa;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganpati FirstStep Playway</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header{
-    background:#ff9800;
-    color:white;
-    padding:20px;
-    text-align:center;
-}
+<header>
+    <div class="logo-section">
+        <h1>Ganpati FirstStep Playway</h1>
+        <div class="orange-line"></div>
+    </div>
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
+    <img src="images/ab.jpg" alt="School Logo" class="logo">
+</header>
 
-.hero{
-    text-align:center;
-    padding:100px;
-    background:#ffe082;
-}
-.hero-image{
-	width:350px;
-	max-width:50%
-	display: block;
-	margin: 20px ;
-}
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 
-.btn{
-    background:#4CAF50;
-    color:white;
-    padding:12px 20px;
-    text-decoration:none;
-    border-radius:5px;
-}
-@media screen and (max-width:768px){
-  .navbar{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-  }
+<div class="center">
+    <a href="enroll.html" class="btn">Enroll Now</a>
+</div>
 
-  .navbar a{
-    display:block;
-    padding:12px;
-  }
-
-  img{
-    width:100%;
-    height:auto;
-  }
-
-  .gallery{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:15px;
-  }
-
-  h1,h2,p{
-    text-align:center;
-  }
-}
-.hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    padding:20px;
-}
-
-.left-menu{
-    width:35%;
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-}
-.image-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px auto;
-}
-
-.image-box img {
-    width: 320px;
-    max-width: 90%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-}
-
-.hero {
-    text-align: center;
-}
-
-.left-menu a{
-    text-decoration:none;
-    font-size:22px;
-    font-weight:bold;
-    color:#000;
-}
-
-.right-content{
-    width:60%;
-    text-align:center;
-}
-
-.right-content img{
-    width:100%;
-    max-width:250px;
-    border-radius:10px;
-}
-
-.btn{
-    background:#28a745;
-    color:white;
-    padding:10px 20px;
-    text-decoration:none;
-    border-radius:6px;
-    font-weight:bold;
-}
+</body>
+</html>
