@@ -41,10 +41,18 @@ header{
 }
 
 header h1{
-    font-size:34px;
-    color:#222;
-    margin-bottom:5px;
+    font-size:30px;
+    color:#ff6600;
+    margin-bottom:10px;
 }
+@media(max-width:600px){
+   header h1{
+      font-size:22px;
+   }
+   nav a{
+      font-size:14px;
+      padding:5px 8px;
+   }
 
 header p{
     color:#666;
@@ -57,16 +65,22 @@ header p{
 nav{
     background:#ff8c00;
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
-    padding:14px 8px;
+   flex-wrap: wrap;
+   gap:15px;
+    padding:14px 10px;
 }
 
 nav a{
-    color:white;
+    color:#fff;
     text-decoration:none;
-    font-size:14px;
+    font-size:16px;
     font-weight:bold;
+   padding:6px 10px;
+}
+nav a : hover{
+   color:yellow;
 }
 
 /* =========================
