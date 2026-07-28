@@ -238,7 +238,47 @@ nav a{
 }
 
 .gallery img{
-    height:200px;
+    
+    width:100%;
+    height:auto;
+    object-fit:contain;
+    border-radius:10px;
+    display:block;
+
 }
 
+}
+.hero{
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    animation:slideBg 15s infinite;
+}
+
+@keyframes slideBg{
+    0%{
+        background-image:url("images/playway5.jpg.jpeg");
+    }
+    33%{
+        background-image:url("images/playwayD.jpg.jpeg");
+    }
+    66%{
+        background-image:url("images/playwayC.jpg.jpeg");
+    }
+    100%{
+        background-image:url("images/playway2.jpg.jpeg");
+    }
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,0.3);
+    color:white;
+    text-align:center;
 }
