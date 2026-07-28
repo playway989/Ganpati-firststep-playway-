@@ -258,16 +258,16 @@ nav a{
 
 @keyframes slideBg{
     0%{
-        background-image:url("images/playway5.jpg.jpeg");
+        background-image:url("playway5.jpg.jpeg");
     }
     33%{
-        background-image:url("images/playwayD.jpg.jpeg");
+        background-image:url("playwayD.jpg.jpeg");
     }
     66%{
-        background-image:url("images/playwayC.jpg.jpeg");
+        background-image:url("playwayC.jpg.jpeg");
     }
     100%{
-        background-image:url("images/playway2.jpg.jpeg");
+        background-image:url("playway2.jpg.jpeg");
     }
 }
 
